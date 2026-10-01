@@ -1,0 +1,196 @@
+[27-Aug-2026 23:52:39 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[27-Aug-2026 23:52:39 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Database connection failed. Please verify your MySQL server status and configuration. in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php:29
+Stack trace:
+#0 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php(35): Database->__construct()
+#1 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Auth.php(21): Database::getInstance()
+#2 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\includes\header.php(4): Auth::user()
+#3 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\index.php(4): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php on line 29
+[27-Aug-2026 23:53:19 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[27-Aug-2026 23:53:19 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Database connection failed. Please verify your MySQL server status and configuration. in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php:29
+Stack trace:
+#0 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php(35): Database->__construct()
+#1 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Auth.php(21): Database::getInstance()
+#2 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\includes\header.php(4): Auth::user()
+#3 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\index.php(4): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php on line 29
+[27-Aug-2026 23:53:22 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[27-Aug-2026 23:53:22 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Database connection failed. Please verify your MySQL server status and configuration. in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php:29
+Stack trace:
+#0 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php(35): Database->__construct()
+#1 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Auth.php(21): Database::getInstance()
+#2 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\includes\header.php(4): Auth::user()
+#3 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\index.php(4): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php on line 29
+[27-Aug-2026 23:53:24 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[27-Aug-2026 23:53:24 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Database connection failed. Please verify your MySQL server status and configuration. in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php:29
+Stack trace:
+#0 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php(35): Database->__construct()
+#1 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Auth.php(21): Database::getInstance()
+#2 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\includes\header.php(4): Auth::user()
+#3 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\index.php(4): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php on line 29
+[31-Aug-2026 21:00:13 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php:45
+Stack trace:
+#0 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php(45): PDO->prepare('SELECT id, firs...')
+#1 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php(55): Database->query('SELECT id, firs...', Array)
+#2 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Auth.php(22): Database->fetchOne('SELECT id, firs...', Array)
+#3 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\includes\header.php(4): Auth::user()
+#4 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\index.php(4): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+  thrown in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php on line 45
+[31-Aug-2026 21:00:16 Europe/Berlin] Database connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it
+[31-Aug-2026 21:00:16 Europe/Berlin] PHP Fatal error:  Uncaught Exception: Database connection failed. Please verify your MySQL server status and configuration. in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php:29
+Stack trace:
+#0 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php(35): Database->__construct()
+#1 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Auth.php(21): Database::getInstance()
+#2 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\includes\header.php(4): Auth::user()
+#3 D:\xampp\htdocs\E commerce\E Commerce\E Commerce\index.php(4): require_once('D:\\xampp\\htdocs...')
+#4 {main}
+  thrown in D:\xampp\htdocs\E commerce\E Commerce\E Commerce\classes\Database.php on line 29
+[20-Sep-2026 16:00:51 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:01:24 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:03:29 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:03:31 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:03:43 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:03:45 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:05:04 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:05:13 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:05:18 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:05:21 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:05:25 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:05:48 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:06:02 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:06:24 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:06:37 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:06:59 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:07:02 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:07:08 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:08:10 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:10:15 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:10:19 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:11:49 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:11:52 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:11:57 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:12:14 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:12:23 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:12:25 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:13:55 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:15:30 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:15:45 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:15:49 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:15:53 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:15:56 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:16:00 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:16:04 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:20:36 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:20:38 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:21:22 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:22:07 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:22:09 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:22:15 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:22:19 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:22:28 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:22:30 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:23:31 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:23:33 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:23:37 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:23:39 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:25:26 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:25:43 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:25:52 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:26:01 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:26:06 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:26:21 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:26:55 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:27:21 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:28:14 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:29:13 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:29:33 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:30:01 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:30:23 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:08 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:10 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:19 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:21 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:23 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:26 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:28 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:30 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:36 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:38 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:40 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:46 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:48 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:31:53 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:32:16 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:33:26 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:33:31 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:33:38 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:34:08 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:34:15 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:34:37 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:34:39 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:36:14 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:36:16 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:39:11 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:39:28 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:39:28 UTC] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\Users\Saalim\Desktop\E commerce\E commerce\E Commerce\E Commerce\classes\Auth.php on line 74
+[20-Sep-2026 16:39:28 UTC] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\Users\Saalim\Desktop\E commerce\E commerce\E Commerce\E Commerce\classes\Auth.php on line 74
+[20-Sep-2026 16:39:28 UTC] PHP Warning:  session_regenerate_id(): Session ID cannot be regenerated after headers have already been sent in C:\Users\Saalim\Desktop\E commerce\E commerce\E Commerce\E Commerce\classes\Auth.php on line 74
+[20-Sep-2026 16:40:05 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:40:07 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:40:09 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:40:33 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:40:40 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:09 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:12 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:16 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:18 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:25 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:27 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:34 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:38 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:40 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:42 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:44 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:46 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:49 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:51 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:53 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:55 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:57 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:42:59 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:43:01 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:43:03 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:43:05 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:43:07 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:44:25 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:44:27 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:44:50 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:44:52 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:44:54 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:44:56 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:44:58 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:45:00 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:45:02 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:45:04 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:45:06 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:45:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Saalim\Desktop\E commerce\E commerce\E Commerce\E Commerce\admin\includes\admin-sidebar.php:33) in C:\Users\Saalim\Desktop\E commerce\E commerce\E Commerce\E Commerce\includes\functions.php on line 100
+[20-Sep-2026 16:47:36 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:49:27 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:51:17 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:54:25 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:54:33 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:54:35 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:55:07 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:55:12 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:55:15 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:55:18 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 16:55:22 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 17:00:25 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.
+[20-Sep-2026 17:00:27 UTC] MySQL connection failed: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it - falling back to SQLite.

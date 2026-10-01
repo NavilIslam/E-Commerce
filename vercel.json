@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "_router.php",
+      "use": "vercel-php@0.7.4",
+      "config": {
+        "includeFiles": [
+          "*.php",
+          "admin/**/*.php",
+          "api/**/*.php",
+          "classes/**",
+          "config/**",
+          "includes/**"
+        ]
+      }
+    },
+    { "src": "assets/**", "use": "@vercel/static" },
+    { "src": "uploads/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/assets/(.*)", "dest": "/assets/$1" },
+    { "src": "/uploads/(.*)", "dest": "/uploads/$1" },
+    { "src": "/favicon.ico", "dest": "/assets/images/favicon-32.png" },
+    { "src": "/(.*)", "dest": "/_router.php" }
+  ]
+}
